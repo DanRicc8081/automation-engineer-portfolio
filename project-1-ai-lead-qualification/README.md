@@ -77,3 +77,14 @@ In a production environment, Google Sheets could be replaced with:
 - CRM systems (HubSpot, Salesforce)
 - Databases (PostgreSQL, Airtable)
 - Lead management platforms
+
+## Screenshots
+
+### Automation Architecture
+![Architecture](screenshots/lead-qualification-automation-architecture.png)
+
+### Router Logic
+![Router](screenshots/lead-qualification-router-logic.png)
+
+### Example Output
+![Output](screenshots/lead-qualification-output-google-sheets.png)
