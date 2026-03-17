@@ -1,4 +1,4 @@
-# AI Content Generator Automation
+# AI Content Generation & Distribution System
 
 ## Problem
 
