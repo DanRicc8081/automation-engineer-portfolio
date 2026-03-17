@@ -1,4 +1,4 @@
-# AI Email Auto-Responder
+# AI Email Auto-Responder System
 
 ## Problem
 
