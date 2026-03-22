@@ -65,3 +65,14 @@ Possible production improvements include:
 - automatic reply sending after review
 - CRM integration for customer records
 - sentiment analysis for priority detection
+
+- ## Screenshots
+
+### Automation Architecture
+![Architecture](screenshots/email-responder-automation-architecture.png)
+
+### Router Logic
+![Router](screenshots/email-responder-router-logic.png)
+
+### Example Output (AI Generated Draft)
+![Output](screenshots/email-responder-gmail-draft.png)
