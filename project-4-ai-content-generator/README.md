@@ -62,3 +62,14 @@ Possible production improvements include:
 - multi-platform publishing (LinkedIn, Twitter, blogs)
 - content approval workflows
 - scheduled content pipelines
+
+- ## Screenshots
+
+### Automation Architecture
+![Architecture](screenshots/content-generator-architecture.png)
+
+### Content Processing Flow
+![Processing](screenshots/content-generator-processing.png)
+
+### Example Output
+![Output](screenshots/content-generator-output.png)
