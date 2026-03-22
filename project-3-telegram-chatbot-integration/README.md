@@ -64,3 +64,14 @@ Possible production improvements include:
 - conversation memory
 - command handling
 - integration with databases or internal tools
+
+- ## Screenshots
+
+### Automation Architecture
+![Architecture](screenshots/telegram-chatbot-architecture.png)
+
+### Router Logic
+![Router](screenshots/telegram-chatbot-router.png)
+
+### Example Output (Telegram Bot)
+![Output](screenshots/telegram-chatbot-output.png)
