@@ -1,5 +1,8 @@
 # AI Lead Qualification System
 
+## 🎥 Demo Video
+Watch the demo here: https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa
+
 ## Problem
 
 Businesses often receive many inbound leads through forms, chat systems, or APIs.  
