@@ -1,111 +1,69 @@
 # Automation Engineer Portfolio
 
-This repository contains a portfolio of AI-powered automation workflows built using **Make (Integromat), OpenAI, Gmail, Google Sheets, Telegram, and Webhooks**.
+This repository contains a portfolio of AI-powered automation workflows built using Make, OpenAI, Gmail, Google Sheets, Telegram, and Webhooks.
 
-The goal of these projects is to demonstrate **practical automation systems used in real business workflows**, including AI classification, email automation, chatbot interactions, and AI content generation.
-
----
-
-# Projects
-
-## 1. AI Lead Qualification System
-Automates the classification and prioritization of inbound leads using AI.
-
-**Key features**
-- Webhook trigger for incoming leads
-- AI classification using OpenAI
-- Lead scoring and urgency detection
-- Router logic for prioritization
-- Structured logging in Google Sheets
-- Telegram notification for high-priority leads
-
-**Architecture**
-
-Webhook → OpenAI → Parse JSON → Router → Google Sheets → Telegram
+The goal of these projects is to demonstrate practical automation systems used in real-world scenarios.
 
 ---
 
-## 2. AI Email Auto-Responder
-Automatically generates draft replies to incoming emails using AI.
+## 🚀 Projects
 
-**Key features**
-- Gmail inbox monitoring
-- AI-generated response drafts
-- Gmail draft creation
-- Email classification logic
-- Labeling of ignored emails
+### 1. AI Lead Qualification System  
+Automatically classifies and prioritizes incoming leads using AI.
 
-**Architecture**
-
-Gmail → OpenAI → Draft Response → Gmail Draft → Email Labeling
+👉 [Watch Demo](https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa)  
+👉 [View Project](./project-1-ai-lead-qualification)
 
 ---
 
-## 3. Telegram Chatbot Integration
-A chatbot workflow that receives messages and processes them using AI.
+### 2. AI Email Auto-Responder  
+Generates and routes email replies using AI while keeping human control.
 
-**Key features**
-- Telegram bot trigger
-- AI message processing
-- Structured response handling
-- Workflow automation through Make
-
-**Architecture**
-
-Telegram → Make Scenario → OpenAI → Telegram Response
+👉 [Watch Demo](https://www.loom.com/share/8ac0332bd36f4fc99840d3a1fa38a016)  
+👉 [View Project](./project-2-ai-email-responder)
 
 ---
 
-## 4. AI Content Generator Automation
-Generates automated content using AI.
+### 3. Telegram AI Chatbot  
+Responds to user messages based on intent using AI-powered routing.
 
-**Key features**
-- Automated AI content generation
-- Structured output formatting
-- Content delivery through Telegram
-
-**Architecture**
-
-Trigger → OpenAI → Format Output → Send to Telegram
+👉 [Watch Demo](https://www.loom.com/share/42a9d0174df54f97813f2abae811ca06)  
+👉 [View Project](./project-3-telegram-chatbot-integration)
 
 ---
 
-# Tools Used
+### 4. AI Content Generator  
+Creates structured LinkedIn content using AI for consistent publishing.
 
-- Make (Integromat)
-- OpenAI API
-- Gmail
-- Google Sheets
-- Telegram Bot API
-- Webhooks
+👉 [Watch Demo](https://www.loom.com/share/ef67952808ef45ffab1025ac888e3695)  
+👉 [View Project](./project-4-ai-content-generator)
 
 ---
 
-# Skills Demonstrated
+## 👤 About Me
 
-- AI workflow automation
-- Event-driven automation systems
-- API integrations
-- JSON parsing
-- Router logic and conditional flows
-- Automated communication workflows
-- Business process automation
-
----
-
-# About Me
-
-I am building practical automation systems focused on **AI-powered workflows and business automation**.
+I build practical automation systems focused on **AI-powered workflows and business automation**.
 
 My goal is to design reliable automation pipelines that integrate AI services with real-world tools like email systems, messaging platforms, and databases.
 
 ---
 
-# Portfolio Purpose
+## 🎯 Portfolio Purpose
 
 These projects demonstrate how AI can be integrated into automation platforms to solve real operational problems such as:
 
-- Lead prioritization
-- Email response automation
-- Conversational workflows
-- Automated content generation
+- Lead prioritization  
+- Email response automation  
+- Conversational workflows  
+- Automated content generation  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- AI Integration (OpenAI APIs)  
+- Workflow Automation (Make)  
+- API & Webhooks  
+- Data Processing (JSON parsing)  
+- System Design & Routing Logic  
+- Automation for Business Use Cases  
