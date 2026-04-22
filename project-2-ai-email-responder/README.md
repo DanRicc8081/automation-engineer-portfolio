@@ -1,5 +1,11 @@
 # AI Email Auto-Responder System
 
+## 🎥 Demo Video
+
+Short walkthrough of the system and how it works:
+
+👉 [▶️ Watch Demo Video](https://www.loom.com/share/8ac0332bd36f4fc99840d3a1fa38a016))
+
 ## Problem
 
 Managing incoming emails can be time-consuming, especially when many messages require similar responses. Manually replying to every message reduces productivity and delays response times.
