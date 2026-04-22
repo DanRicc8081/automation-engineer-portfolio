@@ -1,7 +1,10 @@
 # AI Lead Qualification System
 
 ## 🎥 Demo Video
-Watch the demo here: https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa
+
+Short walkthrough of the system and how it works:
+
+[▶️ Watch Demo Video](https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa) 
 
 ## Problem
 
