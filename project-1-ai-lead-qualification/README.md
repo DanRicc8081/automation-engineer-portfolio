@@ -4,8 +4,7 @@
 
 Short walkthrough of the system and how it works:
 
-[▶️ Watch Demo Video](https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa) 
-
+👉 [▶️ Watch Demo Video](https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa) 
 ## Problem
 
 Businesses often receive many inbound leads through forms, chat systems, or APIs.  
