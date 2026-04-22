@@ -1,5 +1,11 @@
 # AI Content Generation & Distribution System
 
+## 🎥 Demo Video
+
+Short walkthrough of the system and how it works:
+
+👉 [▶️ Watch Demo Video](https://www.loom.com/share/ef67952808ef45ffab1025ac888e3695)
+
 ## Problem
 
 Creating content for social media, marketing, or communication channels often requires time and repetitive effort. Automating content generation can help produce drafts quickly and support content creation workflows.
