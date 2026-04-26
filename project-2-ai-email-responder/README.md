@@ -13,28 +13,32 @@ Manually reviewing, categorizing, and responding to each message can be time-con
 
 ## 💡 Solution
 
-This automation uses **AI-powered classification and response generation** to streamline email handling.
+This automation uses AI-powered classification and response generation to streamline email handling.
 
 When a new email arrives in Gmail, the system extracts the content and sends it to OpenAI for analysis.  
-The AI classifies the message and generates a suggested response.
+The AI classifies the message based on intent and determines whether a response is required.
 
-The response is parsed into structured data, and a router determines whether a reply should be created or the email should be ignored.
+If a reply is needed, the system generates a contextual response and creates a draft email in Gmail for human review.  
+If not, the email is automatically labeled and stored for reference.
 
-If a response is required, a draft is automatically created in Gmail.  
-If not, the email is labeled as ignored for reference.
+This approach reduces manual workload while maintaining human control over outgoing communication, ensuring quality and consistency.
 
 ## 🧱 Architecture
 
 Gmail Trigger → Extract Email → OpenAI → JSON Parsing → Router → Gmail Draft / Label
 
-This workflow processes incoming emails, classifies them using AI, and routes them based on intent in real time.
+This workflow processes incoming emails, classifies intent using AI, and routes them to either draft responses or automated labeling.
+
+This modular design allows easy extension to CRM systems, databases, or additional communication channels.
 
 ## 🛠 Tech Stack
 
 - Make (Integromat)  
 - OpenAI API (GPT)  
 - Gmail API  
-- Webhooks  
+- Webhooks
+
+This stack enables scalable and modular automation workflows using no-code/low-code tools combined with AI services.
 
 ## 🚀 Key Features
 
@@ -42,11 +46,15 @@ This workflow processes incoming emails, classifies them using AI, and routes th
 - AI-generated contextual responses  
 - Conditional routing (reply vs ignore)  
 - Draft email creation for human review  
-- Automatic labeling for ignored emails  
+- Automatic labeling for ignored emails
+
+This system ensures that only relevant emails require human attention, significantly improving operational efficiency and response consistency.
 
 ## 📈 Outcome
 
-This system automates email triage and response generation, reducing manual workload while ensuring human control over outgoing communication.
+This system automates email triage and response generation, significantly reducing manual workload while ensuring consistent and context-aware communication.
+
+By combining AI classification with controlled response drafting, the system enables faster handling of incoming emails while maintaining quality and consistency.
 
 ## 🔮 Possible Improvements
 
