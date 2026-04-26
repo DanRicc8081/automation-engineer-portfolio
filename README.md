@@ -1,8 +1,8 @@
 # Automation Engineer Portfolio
 
-This repository contains a portfolio of AI-powered automation workflows built using Make, OpenAI, Gmail, Google Sheets, Telegram, and Webhooks.
+I build AI-powered automation systems that solve real operational problems using tools like OpenAI, Make, APIs, and messaging platforms.
 
-The goal of these projects is to demonstrate practical automation systems used in real-world scenarios.
+This portfolio showcases end-to-end workflows including lead qualification, email automation, chatbot systems, and AI content generation.
 
 ---
 
