@@ -1,4 +1,4 @@
-# AI Email Auto-Responder System
+# 📧 AI Email Auto-Responder System
 
 ## 🎥 Demo Video
 
@@ -6,73 +6,59 @@ Short walkthrough of the system and how it works:
 
 👉 [▶️ Watch Demo Video](https://www.loom.com/share/8ac0332bd36f4fc99840d3a1fa38a016))
 
-## Problem
+## 🧩 Problem
 
-Managing incoming emails can be time-consuming, especially when many messages require similar responses. Manually replying to every message reduces productivity and delays response times.
+Businesses receive a large volume of emails, many of which are repetitive or low-priority.  
+Manually reviewing, categorizing, and responding to each message can be time-consuming and inefficient.
 
----
+## 💡 Solution
 
-## Solution
+This automation uses **AI-powered classification and response generation** to streamline email handling.
 
-This automation monitors incoming Gmail messages and uses **OpenAI** to generate suggested replies.
+When a new email arrives in Gmail, the system extracts the content and sends it to OpenAI for analysis.  
+The AI classifies the message and generates a suggested response.
 
-When a new email arrives, the workflow sends the message content to OpenAI, which generates a response draft. The system then creates a **Gmail draft reply** automatically.
+The response is parsed into structured data, and a router determines whether a reply should be created or the email should be ignored.
 
-Emails that do not require a response are labeled and stored for reference.
+If a response is required, a draft is automatically created in Gmail.  
+If not, the email is labeled as ignored for reference.
 
----
+## 🧱 Architecture
 
-## Architecture
-Gmail → OpenAI → Generate Reply → Gmail Draft → Label Email
+Gmail Trigger → Extract Email → OpenAI → JSON Parsing → Router → Gmail Draft / Label
 
----
+This workflow processes incoming emails, classifies them using AI, and routes them based on intent in real time.
 
-## Tools Used
+## 🛠 Tech Stack
 
-- Make (Integromat)
-- OpenAI API
-- Gmail
-- Email Labels
+- Make (Integromat)  
+- OpenAI API (GPT)  
+- Gmail API  
+- Webhooks  
 
----
+## 🚀 Key Features
 
-## Key Logic
+- Automatic email classification using AI  
+- AI-generated contextual responses  
+- Conditional routing (reply vs ignore)  
+- Draft email creation for human review  
+- Automatic labeling for ignored emails  
 
-The workflow processes incoming emails using AI classification.
+## 📈 Outcome
 
-**Reply Needed**
+This system automates email triage and response generation, reducing manual workload while ensuring human control over outgoing communication.
 
-If the message requires a response:
+## 🔮 Possible Improvements
 
-➡ Generate AI reply  
-➡ Create Gmail draft response
+In a production environment, this system could be extended by:
 
----
+- Integrating with CRM systems (HubSpot, Salesforce)  
+- Adding sentiment analysis for better prioritization  
+- Auto-sending responses for low-risk scenarios  
+- Storing conversations in a database (PostgreSQL, Airtable)  
+- Building analytics dashboards for email trends  
 
-**No Reply Needed**
-
-If the message does not require a response:
-
-➡ Apply label **AI/Ignored**  
-➡ Store for reference
-
----
-
-## Outcome
-
-This automation reduces the time spent manually drafting email replies while maintaining control over final responses by saving them as drafts.
-
----
-
-## Possible Improvements
-
-Possible production improvements include:
-
-- automatic reply sending after review
-- CRM integration for customer records
-- sentiment analysis for priority detection
-
-- ## Screenshots
+## 📸 Screenshots
 
 ### Automation Architecture
 ![Architecture](screenshots/email-responder-automation-architecture.png)
@@ -80,5 +66,5 @@ Possible production improvements include:
 ### Router Logic
 ![Router](screenshots/email-responder-router-logic.png)
 
-### Example Output (AI Generated Draft)
+### Example Output (Gmail Draft)
 ![Output](screenshots/email-responder-gmail-draft.png)
