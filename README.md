@@ -10,6 +10,7 @@ This portfolio showcases end-to-end workflows including lead qualification, emai
 
 ### 1. AI Lead Qualification System  
 Automatically classifies and prioritizes incoming leads using AI.
+
 💡 Helps teams focus on high-value leads by reducing manual triage.
 
 👉 [Watch Demo](https://www.loom.com/share/4f232efe06224b9abc1340f28c3114aa)  
@@ -19,6 +20,7 @@ Automatically classifies and prioritizes incoming leads using AI.
 
 ### 2. AI Email Auto-Responder  
 Generates and routes email replies using AI while keeping human control.
+
 💡 Reduces repetitive email handling while keeping human control.
 
 👉 [Watch Demo](https://www.loom.com/share/8ac0332bd36f4fc99840d3a1fa38a016)  
@@ -28,6 +30,7 @@ Generates and routes email replies using AI while keeping human control.
 
 ### 3. Telegram AI Chatbot  
 Responds to user messages based on intent using AI-powered routing.
+
 💡 Enables automated customer interaction with structured AI responses.
 
 👉 [Watch Demo](https://www.loom.com/share/42a9d0174df54f97813f2abae811ca06)  
@@ -37,6 +40,7 @@ Responds to user messages based on intent using AI-powered routing.
 
 ### 4. AI Content Generator  
 Creates structured LinkedIn content using AI for consistent publishing.
+
 💡 Speeds up content creation and ensures consistency across channels.
 
 👉 [Watch Demo](https://www.loom.com/share/ef67952808ef45ffab1025ac888e3695)  
