@@ -28,7 +28,7 @@ All leads are stored in **Google Sheets**, while **high-priority leads trigger a
 
 Webhook → OpenAI → JSON Parsing → Router → Google Sheets → Telegram
 
-This workflow processes incoming leads, classifies them using AI, and routes them based on priority.
+This workflow processes incoming leads, classifies them using AI, and routes them based on priority in real time.
 
 ## 🛠 Tech Stack
 
