@@ -1,4 +1,4 @@
-# AI Content Generation & Distribution System
+# ✍️ AI Content Generation & Distribution System (Automated Content Pipeline)
 
 ## 🎥 Demo Video
 
@@ -6,70 +6,65 @@ Short walkthrough of the system and how it works:
 
 👉 [▶️ Watch Demo Video](https://www.loom.com/share/ef67952808ef45ffab1025ac888e3695)
 
-## Problem
+## 🧩 Problem
 
-Creating content for social media, marketing, or communication channels often requires time and repetitive effort. Automating content generation can help produce drafts quickly and support content creation workflows.
+Content creation for marketing, social media, and communication channels is time-consuming and repetitive.
 
----
+Teams often need to produce large volumes of content quickly, while maintaining consistency and quality.
 
-## Solution
+Manual workflows slow down production and make it difficult to scale content output efficiently.
 
-This automation uses **OpenAI** to generate content automatically based on a trigger event.
+## 💡 Solution
 
-When the automation is triggered, the system sends a prompt to OpenAI, which generates structured content. The generated content is then formatted and delivered through **Telegram** for quick review.
+This automation uses AI-powered content generation to create structured content drafts from a trigger event.
 
-This workflow demonstrates how AI content generation can be integrated into automation systems.
+When the workflow is triggered, the system sends a prompt to OpenAI, generates structured content, formats the output, and delivers the result through Telegram for review.
 
----
+This system acts as a scalable content generation pipeline, enabling rapid content creation with minimal manual effort.
 
-## Architecture
-Trigger → OpenAI → Format Output → Telegram Delivery
+## 🧱 Architecture
 
----
+Trigger → Prompt Generation → OpenAI → Structured Output → Formatting → Telegram Delivery
 
-## Tools Used
+This workflow processes content requests, generates AI-powered drafts, formats the output, and delivers it for review.
+
+This modular architecture allows the system to be extended with additional publishing channels, approval steps, or content storage tools.
+
+## 🛠 Tech Stack
 
 - Make (Integromat)
-- OpenAI API
-- Telegram Bot
+- OpenAI API (GPT)
+- Telegram Bot API
+- JSON Parsing / Structured Output Handling
+- Webhooks
 
----
+## 🚀 Key Features
 
-## Key Logic
+- AI-powered content generation
+- Structured prompt-based workflow
+- Formatted output for review
+- Telegram delivery for quick approval
+- Modular design for multi-channel distribution
 
-1️⃣ A trigger starts the automation  
+This system helps reduce manual content creation effort while supporting consistent content production.
 
-2️⃣ The workflow sends a prompt to OpenAI  
+## 📈 Outcome
 
-3️⃣ OpenAI generates the requested content  
+This system demonstrates how AI can be integrated into automation workflows to create scalable content generation pipelines.
 
-4️⃣ The content is formatted for readability  
+It reduces manual effort, accelerates content production, and provides a flexible foundation for multi-channel content distribution.
 
-5️⃣ The result is sent to Telegram for review  
+## 🧠 Possible Improvements
 
----
+In a production environment, this system could be extended by:
 
-## Outcome
+- Multi-platform publishing (LinkedIn, Twitter, blogs)
+- Content approval and review workflows
+- Scheduled content pipelines
+- Integration with CMS or marketing tools
+- Content performance tracking and analytics
 
-This project demonstrates how AI-powered content generation can be integrated into automation workflows to support content creation tasks.
-
-Such systems can be used for:
-
-- social media post generation  
-- marketing content drafts  
-- automated notifications  
-
----
-
-## Possible Improvements
-
-Possible production improvements include:
-
-- multi-platform publishing (LinkedIn, Twitter, blogs)
-- content approval workflows
-- scheduled content pipelines
-
-- ## Screenshots
+## 📸 Screenshots
 
 ### Automation Architecture
 ![Architecture](screenshots/content-generator-architecture.png)
