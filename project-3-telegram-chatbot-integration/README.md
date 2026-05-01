@@ -4,7 +4,7 @@
 
 Short walkthrough of the system and how it works:
 
-👉 [▶️ Watch Demo Video](YOUR_LOOM_LINK_HERE)
+👉 [▶️ Watch Demo Video](https://www.loom.com/share/42a9d0174df54f97813f2abae811ca06)
 
 ## 🧩 Problem
 
